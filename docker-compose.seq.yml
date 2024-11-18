@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+
+  local-seq:
+    image: datalust/seq
+    container_name: local-seq
+    ports:
+      - "5030:80"
+    environment:
+      - ACCEPT_EULA=Y
+    networks:
+      - main
+
+networks:
+    main:
