@@ -12,9 +12,9 @@ services:
       - KC_BOOTSTRAP_ADMIN_USERNAME=admin
       - KC_BOOTSTRAP_ADMIN_PASSWORD=password
     networks:
-      - main
+      - local
     command: [ "start-dev" ]
   
 
 networks:
-    main:
+    local:

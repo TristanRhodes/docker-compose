@@ -11,7 +11,7 @@ services:
     ports:
       - 5432:5432
     networks:
-      - main
+      - local
 
 networks:
-    main:
+    local:

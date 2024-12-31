@@ -10,7 +10,7 @@ services:
     environment:
       - ACCEPT_EULA=Y
     networks:
-      - main
+      - local
 
 networks:
-    main:
+    local:
