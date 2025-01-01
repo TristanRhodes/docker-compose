@@ -47,7 +47,7 @@ Finally, import the SSL Certificate into your `Trusted Root Certification Author
 ### Seq
 Url: https://localhost:5030
 
-### Postgres (DbAdmin)
+### Postgres (PgAdmin)
 Adminer: https://localhost:8443
 Username: user@local.com
 Password: password
