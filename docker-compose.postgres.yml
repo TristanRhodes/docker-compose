@@ -13,5 +13,16 @@ services:
     networks:
       - local
 
+  local-pgadmin:
+    image: dpage/pgadmin4
+    container_name: local-pgadmin
+    ports:
+      - 5434:80
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=user@local.com
+      - PGADMIN_DEFAULT_PASSWORD=password
+    networks:
+      - local
+
 networks:
     local:
